@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Docker files
+*.log
+docker-compose.override.yml
+docker-compose.override.*.yml
+*.pid
+
+# Local .env files
+.env
+
+# Python-specific
+*.pyo
+*.pyc
+
+# Pytest cache
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# SQLite database files
+*.sqlite3
+
+# Static and media files (if applicable)
+staticfiles/
+media/
+
+# VSCode project files
+.vscode/
+
+# Ignore IDE specific files
+.idea/
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+clean_db.py
+test.py
